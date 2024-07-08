@@ -1,0 +1,72 @@
+
+
+https://www.esios.ree.es/es/pagina/api
+
+Buenos días,
+
+ 
+
+Su token es: af850ff28e45f31c0345edbfadcea91ab243d7f45e1b875b4b7c67b3a9c41b2a
+
+ 
+
+Saludos
+
+curl "https://api.esios.ree.es/archives/3183/download_json" -X GET \
+	-H "Accept: application/json; application/vnd.esios-api-v1+json" \
+	-H "Content-Type: application/json" \
+	-H "Host: api.esios.ree.es" \
+	-H "Authorization: Token token=\"af850ff28e45f31c0345edbfadcea91ab243d7f45e1b875b4b7c67b3a9c41b2a\"" \
+	-H "Cookie: "
+
+==========================================================
+
+
+curl "https://api.esios.ree.es/cached_widgets/1" -X GET \
+	-H "Accept: application/json; application/vnd.esios-api-v2+json" \
+	-H "Content-Type: application/json" \
+	-H "Host: api.esios.ree.es" \
+	-H "Authorization: Token token=\"af850ff28e45f31c0345edbfadcea91ab243d7f45e1b875b4b7c67b3a9c41b2a\"" \
+	-H "Cookie: "
+
+
+
+curl "https://api.esios.ree.es/auctions" -X GET \
+	-H "Accept: application/json; application/vnd.esios-api-v1+json" \
+	-H "Content-Type: application/json" \
+	-H "Host: api.esios.ree.es" \
+	-H "Authorization: Token token=\"af850ff28e45f31c0345edbfadcea91ab243d7f45e1b875b4b7c67b3a9c41b2a\"" \
+	-H "Cookie: "
+
+
+curl "https://api.esios.ree.es/archives" -X GET \
+	-H "Accept: application/json; application/vnd.esios-api-v1+json" \
+	-H "Content-Type: application/json" \
+	-H "Host: api.esios.ree.es" \
+	-H "Authorization: Token token=\"af850ff28e45f31c0345edbfadcea91ab243d7f45e1b875b4b7c67b3a9c41b2a\"" \
+	-H "Cookie: "
+
+
+curl "https://api.esios.ree.es/indicators/1013?start_date=2016-03-29T00:00:00&end_date=2016-03-29T23:50:00" -X GET \
+-H "Accept: application/json; application/vnd.esios-api-v1+json" \
+-H "Content-Type: application/json" \
+-H "Host: api.esios.ree.es" \
+-H "Authorization: Token token=\"af850ff28e45f31c0345edbfadcea91ab243d7f45e1b875b4b7c67b3a9c41b2a\"" \
+-H "Cookie: " > 0precio.json
+
+
+Potencia contratada	315	315	315
+			
+	Maximetro 2010		
+	Período 1	Período 2	Período 3
+
+
+
+ep1 = 0.172385 # e/kwh
+ep2 = 0.133455 # e/kwh
+ep3 = 0.084747 # e/kwh
+
+
+ep1 = 0.179682 # e/kwh
+ep2 = 0.138379 # e/kwh
+ep3 = 0.086639 # e/kwh

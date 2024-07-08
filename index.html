@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+</head>
+<body>
+  <h2>Formulario de Contacto</h2>
+  
+  <form id="contactForm">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="button" onclick="enviarCorreo()">Enviar</button>
+  </form>
+
+  <script>
+    function enviarCorreo() {
+      let nombre = document.getElementById('nombre').value;
+      let email = document.getElementById('email').value;
+      let mensaje = document.getElementById('mensaje').value;
+
+      // Crear un enlace 'mailto:' con los datos del formulario
+      let mailtoLink = `mailto:destinatario@example.com?subject=Formulario de Contacto&body=Nombre:%20${encodeURIComponent(nombre)}%0D%0AEmail:%20${encodeURIComponent(email)}%0D%0AMensaje:%20${encodeURIComponent(mensaje)}`;
+
+      // Abrir el enlace en una nueva pestaña o ventana
+      window.open(mailtoLink, '_blank');
+    }
+  </script>
+</body>
+</html>
