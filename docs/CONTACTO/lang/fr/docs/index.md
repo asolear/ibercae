@@ -1,4 +1,4 @@
-# Curso de Auditorías Energéticas del COGITI.
+# 
 
 En el foro tenéis un mensaje de bienvenida con la introducción al  curso. Nos gustaría os presentarais respondiendo al mismo mensaje del  foro.
 
