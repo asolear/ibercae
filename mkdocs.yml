@@ -46,7 +46,7 @@ extra:
   consent:
     title:  Consentimiento de Cookies
     description: >- 
-      Utilizo cookies para reconocer sus visitas y para medir la eficacia de mi documentación.
+      En IberCAE utilizamos cookies para brindarte una experiencia más relevante recordando tus preferencias y visitas anteriores. Al hacer clic en "Aceptar", aceptas el uso de TODAS las cookies.
     cookies:
       analytics:
         name: Google Analytics
