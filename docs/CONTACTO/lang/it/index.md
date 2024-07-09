@@ -14,7 +14,7 @@ hide:
 
   
 
-[cotataci](Contacto.md){ .md-button }
+[cotataci](../../index.md){ .md-button }
 [📞 ](tel:600366211){ .md-button }
 
 
@@ -27,7 +27,7 @@ hide:
 
 -   ## Certificati Bianchi 
     ---
-    [:material-compost:{style="font-size: 80px;"}](caes){ .md-button } 
+    [:material-compost:{style="font-size: 80px;"}](caes.md){ .md-button } 
  
     ``` mermaid
     graph 
@@ -42,11 +42,11 @@ hide:
    
     MONETIZAMOS TUS PROYECTOS DE EFICIENCIA ENERGÉTICA DE MANERA RÁPIDA, SENCILLA Y EFICAZ
 
-    [Solicitar ](blog/category/eficiencia-energetica/){ .md-button } -->
+    [Solicitar ](#){ .md-button } -->
 
 -   ## Renovables
     ---
-    [:material-wind-power-outline:{style=" font-size: 80px;"} :material-solar-power-variant-outline:{style=" font-size: 80px;"} ](blog/category/eficiencia-energetica/){ .md-button } 
+    [:material-wind-power-outline:{style=" font-size: 80px;"} :material-solar-power-variant-outline:{style=" font-size: 80px;"} ](#){ .md-button } 
  
 
 
@@ -59,14 +59,14 @@ hide:
     ---
 
     [:material-trending-down:{style="font-size: 80px;"} 
-    :material-meter-electric-outline:{style="font-size: 80px;"} ](blog/category/eficiencia-energetica/){ .md-button } 
+    :material-meter-electric-outline:{style="font-size: 80px;"} ](#){ .md-button } 
 
     <!-- <img src="img/fv.jpg" alt="Alt text" width="350"> -->
 
     Estudiamos y proyectamos intervenciones de Aerotermia, Fotovoltaica y Vehiculo Electrico..
 
 
-    <!-- [Solicitar ](blog/category/eficiencia-energetica/){ .md-button } -->
+    <!-- [Solicitar ](#){ .md-button } -->
 
 <!-- -   ## Recarga de VE
     

@@ -14,7 +14,7 @@ hide:
 
   
 
-[CONTACTANOS](Contacto.md){ .md-button }
+[CONTACTANOS](CONTACTO/index.md){ .md-button }
 [📞 ](tel:600366211){ .md-button }
 
 
@@ -24,7 +24,7 @@ hide:
 
 -   ## Certificados de Ahorro Energético (CAEs). Certificati Bianchi 
     ---
-    [:material-compost:{style="font-size: 80px;"}](blog/category/eficiencia-energetica/){ .md-button } 
+    [:material-compost:{style="font-size: 80px;"}](#){ .md-button } 
  
     ``` mermaid
     graph 
@@ -40,11 +40,11 @@ hide:
    
     MONETIZAMOS TUS PROYECTOS DE EFICIENCIA ENERGÉTICA DE MANERA RÁPIDA, SENCILLA Y EFICAZ
 
-    [Solicitar ](blog/category/eficiencia-energetica/){ .md-button } -->
+    [Solicitar ](#){ .md-button } -->
 
 -   ## Renovables
     ---
-    [:material-solar-power-variant-outline:{style=" font-size: 80px;"} ](CAEs/Industrial/IND010%20Mejora%20del%20aislamiento%20de%20tuber%C3%ADas%20y%20superficies%20planas%20de%20instalaciones%20y%20equipos%20utilizados%20en%20procesos%20industriales%20para%20temperaturas%20de%20m%C3%A1s%20de%2060%20C/){ .md-button } 
+    [:material-solar-power-variant-outline:{style=" font-size: 80px;"} ]('docs/CAEs/Industrial/IND010 Mejora del aislamiento de tuberías y superficies planas de instalaciones y equipos utilizados en procesos industriales para temperaturas de más de 60 C'){ .md-button } 
  
 
 
@@ -56,12 +56,12 @@ hide:
 
     ---
 
-    [:material-meter-electric-outline:{style="font-size: 80px;"} ](blog/category/eficiencia-energetica/){ .md-button } 
+    [:material-meter-electric-outline:{style="font-size: 80px;"} ](#){ .md-button } 
 
     <!-- <img src="img/fv.jpg" alt="Alt text" width="350"> -->
 
     Estudiamos y proyectamos intervenciones de Aerotermia, Fotovoltaica y Vehiculo Electrico..
-    <!-- [Solicitar ](blog/category/eficiencia-energetica/){ .md-button } -->
+    <!-- [Solicitar ](#){ .md-button } -->
     <!-- -   ## Recarga de VE
     
     ---
