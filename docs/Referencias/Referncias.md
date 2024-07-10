@@ -23,8 +23,12 @@
 
 
 ## UNE
-- [Auditorías energéticas. Parte 1: Requisitos generales.](https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma?c=norma-une-en-16247-1-2023-n0071160)
 
+
+- [Auditorías energéticas. Parte 1: Requisitos generales.](https://plataforma-e.aenormas.aenor.com/pdf/UNE/N0071160
+)
+
+- [Auditorías energéticas. Parte 2: Edificios.]{https://plataforma-e.aenormas.aenor.com/pdf/UNE/N0071161}
 
 ## RD
 - [Real Decreto 56/2016, de 12 de febrero, por el que se transpone la Directiva
