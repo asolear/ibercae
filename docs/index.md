@@ -7,7 +7,7 @@ hide:
 
 # 
 
-<img src="img/bombilla.png" alt="Alt text" width="100%">
+<!-- <img src="img/bombilla.png" alt="Alt text" width="100%"> -->
 
 <center><h1 style="color:darkblue;  
   font-size: 222%; font-weight: 999">Gestión y Eficiencia Energética </h1>
@@ -22,45 +22,38 @@ hide:
 
 
 
--   ## Certificados de Ahorro Energético (CAEs). Certificati Bianchi 
+-   ## Certificados de Ahorro Energético (CAEs). 
     ---
-    [:material-compost:{style="font-size: 80px;"}](#){ .md-button } 
- 
-    ``` mermaid
-    graph 
-      A[Cliente] --> |🧾📊| B[i.CAE];
-      B -->|📚 CAE| C[E. Obligada / Delegada];
-      C -->|💰 | A;
-    ```
+    [:material-compost:{style="font-size: 80px;"}](https://tejado.solar/){ .md-button } 
 
+
+    MONETIZAMOS TUS PROYECTOS DE EFICIENCIA ENERGÉTICA.
 
 <!-- -   ## Certificación de Eficiencia Energético (CEEs)
     ---
     <img src="img/eficiencia energetica.png" alt="Alt text" width="350">
    
-    MONETIZAMOS TUS PROYECTOS DE EFICIENCIA ENERGÉTICA DE MANERA RÁPIDA, SENCILLA Y EFICAZ
 
     [Solicitar ](#){ .md-button } -->
 
 -   ## Renovables
     ---
-    [:material-solar-power-variant-outline:{style=" font-size: 80px;"} ]('docs/CAEs/Industrial/IND010 Mejora del aislamiento de tuberías y superficies planas de instalaciones y equipos utilizados en procesos industriales para temperaturas de más de 60 C'){ .md-button } 
+    [:material-solar-power-variant-outline:{style=" font-size: 80px;"} ](https://gestoriadeautoconsumo.com/){ .md-button } 
  
 
 
-    TE AYUDAMOS A AHORRAR ENERGIA Y A MONETIZARLO.
-
+    OPTIMIZAMOS TU INSTALACION DE AUTOCONSUMO PARA QUE REDUZCAS TU DEPENDENCIA DE LA DISTRIBUIDORA.
     <!-- [Solicitar ](Certificados de Ahorro Energético (CAE)/EL SISTEMA CAE/CAEs/){ .md-button } -->
 
 -   ## Medidas de Ahorro Energético (MAEs)
 
     ---
 
-    [:material-meter-electric-outline:{style="font-size: 80px;"} ](#){ .md-button } 
+    [:material-meter-electric-outline:{style="font-size: 80px;"} ](https://github.com/asolear?tab=repositories){ .md-button } 
 
     <!-- <img src="img/fv.jpg" alt="Alt text" width="350"> -->
 
-    Estudiamos y proyectamos intervenciones de Aerotermia, Fotovoltaica y Vehiculo Electrico..
+    PROYECTAMOS E INSTALAMOS ACS Y CLIMATIZACION CON AEROTERMIA.
     <!-- [Solicitar ](#){ .md-button } -->
     <!-- -   ## Recarga de VE
     
