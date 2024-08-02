@@ -1,6 +1,6 @@
 site_name: i.CAE
-copyright: Copyright &copy; 2016 - 2024 KGNeTE
-dev_addr: 0.0.0.0:8888
+copyright: Copyright &copy; 2016 - 2024 ; Ing. N^o Colegiado 26975 COGITIM
+
 
 theme:
   name: material
@@ -19,7 +19,7 @@ theme:
   features:
     - navigation.tabs
     - toc.integrate 
-language: es
+  language: es
 
 plugins:
   # - blog:
@@ -33,9 +33,7 @@ plugins:
 
   # - privacy
   - search
-  - exclude:
-      glob:
-        - '*emjail*.md'
+
 
 extra_javascript:
   - js/pdfjs/pdf.mjs
@@ -72,7 +70,7 @@ extra:
     - icon: fontawesome/solid/phone
       link: tel:+34 600366211
     - icon: material/email
-      link: mailto:kgnete@gmail.com
+      link: mailto:ibercae@gmail.com
     # - icon: fontawesome/brands/github
     #   link: https://github.com/kgnete
     # - icon: fontawesome/brands/stack-overflow
@@ -114,6 +112,5 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
+
           
