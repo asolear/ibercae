@@ -2,7 +2,7 @@
 # 
 ??? Tip "SOLICUTUD DE DOCUMENTO A MEDIDA"
        <style>input {background-color: lavender; padding: 10px 20px; width: 100%;}</style>
-      <form action='mailto:ibercae@gmail.com?subject=CAEs_IND040' method='post' enctype='text/plain'>
+      <form action='mailto:ibercae@gmail.com?subject=CAEs_IND090' method='post' enctype='text/plain'>
     ??? Question "UBICACION"
          <div id='map' style='width: 100%; height: 400px;'></div>
         <label for='LATITUD'>LATITUD</label><input type='text' name='LATITUD' id='LATITUD' value=36.66420921961255 required><br>
@@ -22,7 +22,7 @@
 <script type='module'>
     import * as pdfjsLib from '/js/pdfjs/pdf.mjs';
     document.addEventListener('DOMContentLoaded', function () {
-        const url = '../IND040.pdf';
+        const url = '../IND090.pdf';
         pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdfjs/pdf.worker.mjs';
         const container = document.getElementById('pdf-render');
         function renderPage(pdf, pageNumber) {

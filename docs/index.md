@@ -13,10 +13,10 @@ hide:
   font-size: 222%; font-weight: 999">Gestión y Eficiencia Energética </h1>
 
   
-
+<!-- 
 [CONTACTANOS](CONTACTO/index.md){ .md-button }
 [📞 ](tel:600366211){ .md-button }
-
+ -->
 
 <div class="grid cards" markdown>
 
