@@ -189,13 +189,13 @@ endobj
 << /Ascent 1040 /CapHeight 717 /Descent -325 /Flags 32 /FontBBox [ -665 -325 2000 1040 ] /FontFile2 105 0 R /FontName /Arial /ItalicAngle 0 /StemV 129 /Type /FontDescriptor >>
 endobj
 43 0 obj
-<< /BBox [ 0 0 7.9499 7.9499 ] /Resources 6 0 R /Subtype /Form /Type /XObject /Length 0 /Filter /FlateDecode >>
+<< /BBox [ 0 0 7.9499 7.9499 ] /Filter /FlateDecode /Resources 6 0 R /Subtype /Form /Type /XObject /Length 0 >>
 stream
 
 endstream
 endobj
 44 0 obj
-<< /BBox [ 0 0 7.9499 7.9499 ] /Resources 6 0 R /Subtype /Form /Type /XObject /Length 60 /Filter /FlateDecode >>
+<< /BBox [ 0 0 7.9499 7.9499 ] /Filter /FlateDecode /Resources 6 0 R /Subtype /Form /Type /XObject /Length 60 >>
 stream
 xœs
 á2P Á¢t(#ÈË\ÏÒÌ3ŒôŒ,@¤¹¡BH®~T¢K’‚™BHšFfH—k İà¾
@@ -358,13 +358,13 @@ endobj
 (NIFNIE)
 endobj
 86 0 obj
-<< /BBox [ 0 0 7.9499 7.9 ] /Resources 6 0 R /Subtype /Form /Type /XObject /Length 0 /Filter /FlateDecode >>
+<< /BBox [ 0 0 7.9499 7.9 ] /Filter /FlateDecode /Resources 6 0 R /Subtype /Form /Type /XObject /Length 0 >>
 stream
 
 endstream
 endobj
 87 0 obj
-<< /BBox [ 0 0 7.9499 7.9 ] /Resources 6 0 R /Subtype /Form /Type /XObject /Length 61 /Filter /FlateDecode >>
+<< /BBox [ 0 0 7.9499 7.9 ] /Filter /FlateDecode /Resources 6 0 R /Subtype /Form /Type /XObject /Length 61 >>
 stream
 xœs
 á2P Á¢t(#ÈË\ÏÒÌ2ŒôŒ,@¤©¹BH®~T¢K’‚™BHšFfH—k Ğ’
@@ -3578,7 +3578,7 @@ xref
 0000758022 00000 n 
 0000775629 00000 n 
 0000775785 00000 n 
-trailer << /Info 2 0 R /Root 1 0 R /Size 135 /ID [<6ae8087ebec70f95906b853b9aeb1e0f><4fe6bea307081d445c247fb2b094272e>] >>
+trailer << /Info 2 0 R /Root 1 0 R /Size 135 /ID [<6ae8087ebec70f95906b853b9aeb1e0f><0eb92340e352be3a68966027433055bf>] >>
 startxref
 805768
 %%EOF
