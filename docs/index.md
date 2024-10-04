@@ -32,33 +32,7 @@ COMENTARIOS:________
   font-size: 111%; font-weight: 999">Justificamos y vendemos al mejor precio los ahorros de sus actuaciones de eficiencia energética. </h1>
 </center>
 
-<!-- <h1>Ejemplo de JavaScript básico</h1>
-<button  class="md-button md-button--primary" onclick="mostrarMensaje()">Haz clic aquí</button>
-<p id="mensaje"></p> -->
-<style>input {background-color: lavender; padding: 10px 20px; width: 100%;}</style>
-<style>select {background-color: lavender; border: none; padding: 10px 20px; width: 100%;}</style>
-<style>textarea {background-color: lavender; border: none; padding: 10px 20px; width: 100%;}</style>
 
-<!-- <form action="https://formsubmit.co/info@ibercae.com" method="POST" enctype="multipart/form-data"> -->
-<form action='mailto:ibercae@gmail.com?subject=IND040' method='post' enctype="multipart/form-data">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-    <label for="file">Adjuntar archivo:</label>
-    <input type="file" id="file" name="file" required><br><br>
-    <button type="submit" class="md-button md-button--primary">Envsxcxxsiar</button>
-</form>
-<script>
-
-
-  
-    // Función que se ejecuta cuando se presiona el botón
-    function mostrarMensaje() {
-        // Cambiamos el contenido del elemento con id 'mensaje'
-        document.getElementById("mensaje").innerHTML = "¡Hola, Mundo!";
-    }
-</script>
 <!-- https://pictogrammers.com/library/mdi/ -->
 <!-- 
 :material-email-fast-outline:{style="color: orange; font-size: 80px;"} 
