@@ -32,9 +32,86 @@ COMENTARIOS:________
   font-size: 111%; font-weight: 999">Justificamos y vendemos al mejor precio los ahorros de sus actuaciones de eficiencia energética. </h1>
 </center>
 
+<button id="registerButton">Registrarse</button>
 
+<div id="overlay"></div>
+
+<div id="popup">
+    <h2>Registro</h2>
+    <form id="registerForm">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" required>
+        <br>
+        <button type="submit">Registrarse</button>
+    </form>
+    <button id="closePopup">Cerrar</button>
+</div>
+
+<div id="emailDisplay" style="margin-top: 20px; font-size: 18px;"></div>
+
+
+<script>
+    // Función para establecer una cookie
+    function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + (value || "") + ";" + expires + ";path=/";
+    }
+
+    // Función para obtener el valor de una cookie
+    function getCookie(name) {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    // Mostrar el correo registrado al cargar la página
+    window.onload = function() {
+        const registeredEmail = getCookie('registeredEmail');
+        if (registeredEmail) {
+            document.getElementById('emailDisplay').innerText = `${registeredEmail}`;
+            document.getElementById('registerButton').style.display = 'none'; // Ocultar el botón
+        }
+    };
+
+    document.getElementById('registerButton').addEventListener('click', function() {
+        document.getElementById('overlay').style.display = 'block';
+        document.getElementById('popup').style.display = 'block';
+    });
+
+    document.getElementById('closePopup').addEventListener('click', function() {
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('popup').style.display = 'none';
+    });
+
+    document.getElementById('registerForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const email = document.getElementById('email').value;
+
+        // Establecer la cookie con el correo electrónico
+        setCookie('registeredEmail', email, 1); // Guarda el correo durante 1 día
+
+        // Mostrar mensaje de éxito
+        alert('¡Correo registrado exitosamente!');
+
+        // Cerrar el popup
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('popup').style.display = 'none';
+
+        // Mostrar el correo registrado
+        document.getElementById('emailDisplay').innerText = `${email}`;
+        document.getElementById('registerButton').style.display = 'none'; // Ocultar el botón
+    });
+</script>
 <!-- https://pictogrammers.com/library/mdi/ -->
 <!-- 
+:material-account:{style="color: orange; font-size: 80px;"} 
 :material-email-fast-outline:{style="color: orange; font-size: 80px;"} 
 :material-wind-power-outline:{style="color: orange; font-size: 80px;"} 
 :material-barrel-outline:{style="color: orange; font-size: 80px;"} 

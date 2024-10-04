@@ -51,6 +51,9 @@ extra_javascript:
   - js/pdfjs/pdf.mjs
   - https://polyfill.io/v3/polyfill.min.js?features=es6
 
+
+extra_css:
+  - css/extra.css  # Ajusta la ruta según la ubicación de tu archivo CSS
 extra:
 
   generator: false
