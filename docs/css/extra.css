@@ -12,7 +12,7 @@
     cursor: pointer; /* Cambiar cursor */
     z-index: 9999; /* Asegúrate de que esté encima de otros elementos */
     font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que desees */
-    font-size: 12px; /* Cambia este valor al tamaño de fuente que desees */
+    font-size: 16px; /* Cambia este valor al tamaño de fuente que desees */
     transition: background-color 0.3s; /* Transición suave para el fondo */
 }
 
