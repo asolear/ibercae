@@ -1,6 +1,7 @@
-import * as pdfjsLib from '/js/pdfjs/pdf.mjs';
+import * as pdfjsLib from './pdf.mjs';  // Asegúrate de que la ruta sea correcta.
 document.addEventListener('DOMContentLoaded', function () {
-    pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdfjs/pdf.worker.mjs';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.mjs';  // Ajusta la ruta si es necesario.
+
     function renderPage(pdf, pageNumber, container) {
         return pdf.getPage(pageNumber).then(page => {
             const viewport = page.getViewport({ scale: 1 });
@@ -23,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return page.render(renderContext).promise;
         });
     }
+
     function renderPdf(url, container) {
         return pdfjsLib.getDocument(url).promise.then(pdf => {
             console.log(`PDF cargado en ${container.id}`);
@@ -38,12 +40,14 @@ document.addEventListener('DOMContentLoaded', function () {
             console.error(reason);
         });
     }
+
     function setupPdfContainers() {
         document.querySelectorAll('[data-pdf-url]').forEach(container => {
             const url = container.getAttribute('data-pdf-url');
             renderPdf(url, container);
         });
     }
+
     function setupDownloadButtons() {
         document.querySelectorAll('[id^="download-btn-"]').forEach(button => {
             const index = button.id.split('-').pop();
@@ -53,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     }
+
     setupPdfContainers();
     setupDownloadButtons();
 });

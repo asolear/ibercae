@@ -1,6 +1,7 @@
 site_name: Iber-CAE
 copyright: Copyright &copy; 2023 - 2024 ; IberCAE 
 
+
 site_url: https://ibercae.com
 
 
@@ -9,6 +10,7 @@ theme:
     logo: material/cash-sync
   favicon: images/favicon.png
   name: material
+  custom_dir: 'overrides'
 
 
 
@@ -44,19 +46,22 @@ plugins:
 
 
 extra_javascript:
-  - js/registroconcookie.js
+  - js/pdfjs/pdfrenderizar.js
   - js/leafletmio.js
-  - js/obtenervalordelacookie.js
-  - js/enviaracorreoregistrado.js
   - js/mathjax.js
+  - js/custom.js
+  # 
+  # - js/login/registroconcookie.js
+  # - js/login/obtenervalordelacookie.js
+  # - js/login/enviaracorreoregistrado.js
+  # 
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   # - https://giscus.app/client.js
-
-  - js/pdfjs/pdf.mjs
   - https://polyfill.io/v3/polyfill.min.js?features=es6
 
 
 extra_css:
+  - css/custom.css
   - css/extra.css  # Ajusta la ruta según la ubicación de tu archivo CSS
   - css/formularios.css # para que ponga en rojo o verde si se han subido archivos
 extra:

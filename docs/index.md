@@ -34,7 +34,7 @@ COMENTARIOS:________
 
 <button id="registerButton">Registrarse</button>
 
-<div id="overlay"></div>
+<!-- <div id="overlay"></div> -->
 
 <div id="popup">
     <h2>Registro</h2>
@@ -47,7 +47,7 @@ COMENTARIOS:________
     <button id="closePopup">Cerrar</button>
 </div>
 
-<div id="emailDisplay" style="margin-top: 20px; font-size: 18px;"></div>
+<!-- <div id="emailDisplay" style="margin-top: 20px; font-size: 18px;"></div> -->
 
 
 <!-- https://pictogrammers.com/library/mdi/ -->

@@ -2,9 +2,9 @@
 
 #registerButton {
     position: fixed;
-    top: 20px;
+    top: 50px;
     right: 20px;
-    background-color: #007bff; /* Color de fondo */
+    background-color: darkblue; /* Color de fondo */
     color: white; /* Color de texto */
     border: none; /* Sin borde */
     border-radius: 5px; /* Bordes redondeados */
