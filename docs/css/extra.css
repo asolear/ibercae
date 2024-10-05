@@ -1,12 +1,12 @@
 /* styles.css */
 #registerButton {
     position: fixed; /* Mantiene la posición fija */
-    bottom: 35px; 
+    bottom: 5px; 
     /* top: 5px;  */
-    right: 45%; /* Distancia desde el lado derecho */
+    left: 5%; /* Distancia desde el lado derecho */
     background-color: transparent; /* Fondo transparente */
-    color: rgb(174, 168, 168); /* Color del texto */
-    border: transparent; /* Borde blanco (opcional) */
+    color: white; /* Color del texto */
+    border: white; /* Borde blanco (opcional) */
     border-radius: 5px; /* Bordes redondeados */
     padding: 10px 15px; /* Espaciado */
     cursor: pointer; /* Cambiar cursor */
