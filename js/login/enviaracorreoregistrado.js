@@ -36,3 +36,30 @@
 
 
     // }
+
+
+    var modal = document.getElementById("miModal");
+
+    // Obtiene el enlace que abre el modal
+    var enlace = document.getElementById("abrirModal");
+
+    // Obtiene el botón de cierre
+    var span = document.getElementsByClassName("close")[0];
+
+    // Cuando el usuario haga clic en el enlace, abre el modal
+    enlace.onclick = function(event) {
+        event.preventDefault(); // Evita que el enlace navegue
+        modal.style.display = "block";
+    }
+
+    // Cuando el usuario haga clic en el botón de cierre (X), cierra el modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Cuando el usuario haga clic fuera del modal, lo cierra
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
