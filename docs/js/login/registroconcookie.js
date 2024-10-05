@@ -46,7 +46,8 @@
         setCookie('registeredEmail', email, 1); // Guarda el correo durante 1 día
 
         // Mostrar mensaje de éxito
-        alert('¡Correo registrado exitosamente!');
+        // alert('¡Correo registrado exitosamente!');
+        location.reload(); // Este método recarga la página
 
         // Cerrar el popup
         document.getElementById('overlay').style.display = 'none';

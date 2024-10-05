@@ -32,21 +32,6 @@ COMENTARIOS:________
   font-size: 111%; font-weight: 999">Justificamos y vendemos al mejor precio los ahorros de sus actuaciones de eficiencia energética. </h1>
 </center>
 
-<button id="registerButton">Registrarse</button>
-
-<!-- <div id="overlay"></div> -->
-
-<div id="popup">
-    <h2>Registro</h2>
-    <form id="registerForm">
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" required>
-        <br>
-        <button type="submit">Registrarse</button>
-    </form>
-    <button id="closePopup">Cerrar</button>
-</div>
-
 <!-- <div id="emailDisplay" style="margin-top: 20px; font-size: 18px;"></div> -->
 
 

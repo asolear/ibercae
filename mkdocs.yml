@@ -51,9 +51,9 @@ extra_javascript:
   - js/mathjax.js
   - js/custom.js
   # 
-  # - js/login/registroconcookie.js
-  # - js/login/obtenervalordelacookie.js
-  # - js/login/enviaracorreoregistrado.js
+  - js/login/registroconcookie.js
+  - js/login/obtenervalordelacookie.js
+  - js/login/enviaracorreoregistrado.js
   # 
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   # - https://giscus.app/client.js
