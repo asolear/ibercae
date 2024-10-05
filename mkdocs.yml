@@ -44,6 +44,10 @@ plugins:
 
 
 extra_javascript:
+  - js/registroconcookie.js
+  - js/leafletmio.js
+  - js/obtenervalordelacookie.js
+  - js/enviaracorreoregistrado.js
   - js/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   # - https://giscus.app/client.js
@@ -54,6 +58,7 @@ extra_javascript:
 
 extra_css:
   - css/extra.css  # Ajusta la ruta según la ubicación de tu archivo CSS
+  # - css/formularioexpediente.css # para que ponga en rojo o verde si se han subido archivos
 extra:
 
   generator: false
