@@ -24,7 +24,7 @@
             border: 1px solid #888;
             width: 80%;
             /* Ajusta el tamaño del modal */
-            max-height: 40vh;
+            max-height: 80vh;
             /* Limita la altura al 80% de la ventana */
             overflow-y: auto;
             /* Agrega desplazamiento si el contenido es demasiado largo */
