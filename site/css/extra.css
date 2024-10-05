@@ -4,7 +4,7 @@
     top: 20px; /* Distancia desde la parte superior */
     left: 50%; /* Distancia desde el lado derecho */
     background-color: transparent; /* Fondo transparente */
-    color: orange; /* Color del texto */
+    color: white; /* Color del texto */
     border: transparent; /* Borde blanco (opcional) */
     border-radius: 5px; /* Bordes redondeados */
     padding: 10px 15px; /* Espaciado */
