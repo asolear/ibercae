@@ -37,7 +37,7 @@ COMENTARIOS:________
 
 <!-- https://pictogrammers.com/library/mdi/ -->
 <!-- 
-:material-account:{style="color: orange; font-size: 80px;"} 
+:material-close-circle:{style="color: orange; font-size: 80px;"} 
 :material-email-fast-outline:{style="color: orange; font-size: 80px;"} 
 :material-wind-power-outline:{style="color: orange; font-size: 80px;"} 
 :material-barrel-outline:{style="color: orange; font-size: 80px;"} 
