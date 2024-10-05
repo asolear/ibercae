@@ -58,7 +58,7 @@ extra_javascript:
 
 extra_css:
   - css/extra.css  # Ajusta la ruta según la ubicación de tu archivo CSS
-  # - css/formularioexpediente.css # para que ponga en rojo o verde si se han subido archivos
+  - css/formularios.css # para que ponga en rojo o verde si se han subido archivos
 extra:
 
   generator: false

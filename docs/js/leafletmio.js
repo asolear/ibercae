@@ -13,3 +13,4 @@ var tileLayer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.p
     marker = new L.Marker(e.latlng).addTo(map);
     document.getElementById('UBICACION').value = [e.latlng.lat, e.latlng.lng];
   });
+  
