@@ -34,8 +34,6 @@ window.onload = function() {
     let cookieValue = getCookie('registeredEmail');
     if (cookieValue) {
         document.getElementById("registerButton").textContent = "Usuario: "+cookieValue;
-        document.getElementById("campoEmail").textContent = cookieValue;
-
+        document.getElementById("emailField").value = cookieValue;
     }
-    
 }
