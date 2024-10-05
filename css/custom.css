@@ -1,22 +1,33 @@
         /* Estilos para el modal */
         .modal {
-            display: none; /* Oculto por defecto */
-            position: fixed; 
-            z-index: 1; /* Asegura que esté por encima de otros elementos */
+            display: none;
+            /* Oculto por defecto */
+            position: fixed;
+            z-index: 1;
+            /* Asegura que esté por encima de otros elementos */
             left: 0;
             top: 0;
-            width: 100%; /* Anchura completa */
-            height: 100%; /* Altura completa */
-            background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+            width: 100%;
+            /* Anchura completa */
+            height: 100%;
+            /* Altura completa */
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Fondo semi-transparente */
         }
 
         /* Contenido del modal */
         .modal-content {
             background-color: #fff;
-            margin: 15% auto; /* Centra el modal */
+            margin: 5% auto;
+            /* Centra el modal */
             padding: 20px;
             border: 1px solid #888;
-            width: 80%; /* Ajusta el tamaño del modal */
+            width: 80%;
+            /* Ajusta el tamaño del modal */
+            max-height: 40vh;
+            /* Limita la altura al 80% de la ventana */
+            overflow-y: auto;
+            /* Agrega desplazamiento si el contenido es demasiado largo */
         }
 
         /* Estilo para el botón de cierre */
