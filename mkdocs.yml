@@ -92,14 +92,14 @@ extra:
   #   - name: Italiano
   #     link: CONTACTO/lang/it/
   #     lang: it
-  social:
-    # - icon: fontawesome/brands/whatsapp 
-      # link: https://api.whatsapp.com/send?phone=951733491
-    - icon: fontawesome/solid/phone
-      link: tel:+34 951 733 491
-    - icon: material/email
-      link: mailto:info@ibercae.com
-    # - icon: fontawesome/brands/github
+  # social:
+  #   # - icon: fontawesome/brands/whatsapp 
+  #     # link: https://api.whatsapp.com/send?phone=951733491
+  #   - icon: fontawesome/solid/phone
+  #     link: tel:+34 951 733 491
+  #   - icon: material/email
+  #     link: mailto:info@ibercae.com
+  #   # - icon: fontawesome/brands/github
     #   link: https://github.com/kgnete
     # - icon: fontawesome/brands/stack-overflow
     #   link: https://stackoverflow.com/users/3788513/kgnete
