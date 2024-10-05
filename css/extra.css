@@ -2,7 +2,7 @@
 #registerButton {
     position: fixed; /* Mantiene la posición fija */
     top: 5px; /* Distancia desde la parte superior */
-    right: 50%; /* Distancia desde el lado derecho */
+    left: 50%; /* Distancia desde el lado derecho */
     background-color: transparent; /* Fondo transparente */
     color: orange; /* Color del texto */
     border: 2px solid orange; /* Borde blanco (opcional) */
