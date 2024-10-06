@@ -4,9 +4,17 @@ hide:
   - navigation
   - toc
 ---
-#
+
+# IberCAE
+
 <center>
-[:material-cash-sync:{style="font-size: 80px; color:green"}<h1 style="color:green;font-size: 444%; font-weight: 999">Iber-CAE</h1>](#)
+[:material-cash-sync:{style="font-size: 80px; "}](#)
+<p style="color:darkblue;  
+  font-size: 444%; font-weight: 999"> IberCAE</p>
+
+<p style="color:darkblue;  
+  font-size: 333%; font-weight: 999"> Portal de Subastas de Certificados de Ahorro Energético (CAE).</p>
+
 [info@ibercae.com  :material-email-fast-outline:{style="font-size: 20px;"}](mailto:info@ibercae.com
 ?subject=Contacto
 &body=
@@ -24,12 +32,7 @@ COMENTARIOS:________
 %0D%0A
 ){ .md-button .md-button--primary}
 [951 733 491 :material-phone-forward:{style="font-size: 20px;"}](tel:951733491){ .md-button .md-button--primary} 
-<p style="color:darkblue;  
-  font-size: 222%; font-weight: 999"> Mercado primario de CAEs.</p>
-  <p style="color:darkblue;  
-  font-size: 111%; font-weight: 111">(Plataforma independiente) </p>
-  <h1 style="color:darkblue;  
-  font-size: 111%; font-weight: 999">Justificamos y vendemos al mejor precio los ahorros de sus actuaciones de eficiencia energética. </h1>
+
 </center>
 
 <!-- <div id="emailDisplay" style="margin-top: 20px; font-size: 18px;"></div> -->

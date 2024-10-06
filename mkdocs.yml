@@ -6,6 +6,7 @@ site_url: https://ibercae.com
 
 
 theme:
+
   icon:
     logo: material/cash-sync
   favicon: images/favicon.png
@@ -32,6 +33,7 @@ theme:
   language: es
 
 plugins:
+  - awesome-pages
   # - blog:
   #     post_excerpt_separator: pagina_1.png
   #     authors: false
