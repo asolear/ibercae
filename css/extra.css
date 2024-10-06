@@ -1,17 +1,18 @@
 /* styles.css */
 #registerButton {
     position: fixed; /* Mantiene la posición fija */
-    bottom: 35px; /* Distancia desde la parte superior */
-    right: 45%; /* Distancia desde el lado derecho */
+    bottom: 5px; 
+    /* top: 5px;  */
+    left: 5%; /* Distancia desde el lado derecho */
     background-color: transparent; /* Fondo transparente */
-    color: rgb(174, 168, 168); /* Color del texto */
-    border: transparent; /* Borde blanco (opcional) */
+    color: white; /* Color del texto */
+    border: white; /* Borde blanco (opcional) */
     border-radius: 5px; /* Bordes redondeados */
     padding: 10px 15px; /* Espaciado */
     cursor: pointer; /* Cambiar cursor */
     z-index: 9999; /* Asegúrate de que esté encima de otros elementos */
     font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que desees */
-    font-size: 12px; /* Cambia este valor al tamaño de fuente que desees */
+    font-size: 16px; /* Cambia este valor al tamaño de fuente que desees */
     transition: background-color 0.3s; /* Transición suave para el fondo */
 }
 
