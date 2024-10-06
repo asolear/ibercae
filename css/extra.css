@@ -1,20 +1,4 @@
 /* styles.css */
-#registerButton {
-    position: fixed; /* Mantiene la posición fija */
-    bottom: 5px; 
-    /* top: 5px;  */
-    left: 5%; /* Distancia desde el lado derecho */
-    background-color: transparent; /* Fondo transparente */
-    color: white; /* Color del texto */
-    border: white; /* Borde blanco (opcional) */
-    border-radius: 5px; /* Bordes redondeados */
-    padding: 10px 15px; /* Espaciado */
-    cursor: pointer; /* Cambiar cursor */
-    z-index: 9999; /* Asegúrate de que esté encima de otros elementos */
-    font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que desees */
-    font-size: 16px; /* Cambia este valor al tamaño de fuente que desees */
-    transition: background-color 0.3s; /* Transición suave para el fondo */
-}
 
 #emailDisplay {
     position: fixed;
@@ -60,7 +44,42 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #f8f9fa; /* Cambia el color según lo que desees */
-    padding: 10px 0;
-    text-align: center;
+    padding: 5px 0;
+    /* text-align: center; */
     z-index: 100;
+}
+
+#registerButtonnn {
+    position: fixed; /* Mantiene la posición fija */
+    bottom: 0px; 
+    /* top: 5px;  */
+    left: 5%; /* Distancia desde el lado derecho */
+    background-color: transparent; /* Fondo transparente */
+    color: white; /* Color del texto */
+    border: white; /* Borde blanco (opcional) */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado */
+    cursor: pointer; /* Cambiar cursor */
+    z-index: 9999; /* Asegúrate de que esté encima de otros elementos */
+    font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que desees */
+    font-size: 12px; /* Cambia este valor al tamaño de fuente que desees */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+
+#copyright {
+    position: fixed; /* Mantiene la posición fija */
+    bottom: 0px; 
+    /* top: 5px;  */
+    right: 5%; /* Distancia desde el lado derecho */
+    background-color: transparent; /* Fondo transparente */
+    color: white; /* Color del texto */
+    border: white; /* Borde blanco (opcional) */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado */
+    cursor: pointer; /* Cambiar cursor */
+    z-index: 9999; /* Asegúrate de que esté encima de otros elementos */
+    font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que desees */
+    font-size: 12px; /* Cambia este valor al tamaño de fuente que desees */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
 }
