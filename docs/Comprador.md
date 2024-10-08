@@ -6,3 +6,5 @@ hide:
 ---
 
 # 
+
+No se ha registrado como comprador.
