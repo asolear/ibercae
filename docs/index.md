@@ -1,72 +1,34 @@
 ---
 hide:
   - footer
-  - navigation
-  - toc
 ---
 
-# IberCAE
+# ..
 
-<center>
-[:material-cash-sync:{style="font-size: 40px; "}](#)
-<p style="color:darkblue;  
-  font-size: 222%; font-weight: 999"> Ayuda</p>
+!!! note "Antecedentes"
 
+    ??? question "¿Qué es un CAE? [^1]"
 
-<!-- <div id="emailDisplay" style="margin-top: 20px; font-size: 18px;"></div> -->
+        Un Certificado de Ahorro Energético (CAE) es un documento electrónico que garantiza que, tras llevar a cabo una actuación de eficiencia energética, se ha conseguido un nuevo ahorro de energía final equivalente a 1 kWh. De esta forma, si se acomete una actuación que implica un nuevo ahorro anual de 500 kWh, se podrán obtener 500 CAE.
 
-
-<!-- https://pictogrammers.com/library/mdi/ -->
-<!-- 
-:material-close-circle:{style="color: orange; font-size: 80px;"} 
-:material-email-fast-outline:{style="color: orange; font-size: 80px;"} 
-:material-wind-power-outline:{style="color: orange; font-size: 80px;"} 
-:material-barrel-outline:{style="color: orange; font-size: 80px;"} 
-:material-solar-panel:{style="color: orange; font-size: 80px;"} 
-:material-home-battery-outline:{style="color: orange; font-size: 80px;"} 
-:material-solar-power-variant-outline:{style="color: orange; font-size: 80px;"} 
-:material-transmission-tower-import:{style="color: orange; font-size: 80px;"} 
-:material-transmission-tower-export:{style="color: orange; font-size: 80px;"} 
-:material-sun-angle-outline:{style="color: orange; font-size: 80px;"} 
-:material-sun-compass:{style="color: orange; font-size: 80px;"} 
-:material-leaf-circle-outline:{style="color: orange; font-size: 80px;"} 
-:material-currency-eur:{style="color: orange; font-size: 80px;"} 
-:material-finance:{style="color: orange; font-size: 80px;"} 
-:material-trending-down:{style="color: orange; font-size: 80px;"} 
-:material-meter-electric-outline:{style="color: orange; font-size: 80px;"} 
-:material-file-sign:{style="color: orange; font-size: 80px;"} 
-:material-gauge:{style="color: orange; font-size: 80px;"} 
-:material-meter-gas-outline:{style="color: orange; font-size: 80px;"} 
-:material-car-electric-outline:{style="color: orange; font-size: 80px;"} 
-:material-ev-station:{style="color: orange; font-size: 80px;"} 
-:material-battery-charging-high:{style="color: orange; font-size: 80px;"} 
-:material-home-thermometer-outline:{style="color: orange; font-size: 80px;"} 
-:material-home-outline:{style="color: orange; font-size: 80px;"} 
-:material-hospital-building:{style="color: orange; font-size: 80px;"} 
-:material-factory:{style="color: orange; font-size: 80px;"} 
-:material-tractor-variant:{style="color: orange; font-size: 80px;"} 
-:material-bullseye-arrow:{style="color: orange; font-size: 80px;"} 
-:material-handshake:{style="color: orange; font-size: 80px;"} 
-:material-human-greeting:{style="color: orange; font-size: 80px;"} 
-:material-human-male-female-child:{style="color: orange; font-size: 80px;"} 
-:material-human-queue:{style="color: orange; font-size: 80px;"} 
-:material-human-male-board-poll:{style="color: orange; font-size: 80px;"} 
-:material-human-queue:{style="color: orange; font-size: 80px;"} 
-:material-account-tie:{style="color: orange; font-size: 80px;"} 
-:material-account-tie-woman:{style="color: orange; font-size: 80px;"} 
-:material-cow:{style="color: orange; font-size: 80px;"} 
-:material-hydro-power:{style="color: orange; font-size: 80px;"} 
-:material-grass:{style="color: orange; font-size: 80px;"} 
-
-:material-hydro-power:{style="color: orange; font-size: 80px;"}  
-:material-head-snowflake-outline:{style="color: orange; font-size: 80px;"}  
-:material-brain:{style="color: orange; font-size: 80px;"}  
-:material-file-document-edit-outline:{style="color: orange; font-size: 80px;"}  
-:material-file-search-outline:{style="color: orange; font-size: 80px;"}  
-:material-file-certificate-outline:{style="color: orange; font-size: 80px;"}  
-:material-account-cash-outline:{style="color: orange; font-size: 80px;"}  
-:material-compost:{style="color: orange; font-size: 80px;"}    -->
+        Este instrumento permite monetizar los ahorros energéticos, recuperando parte del coste de las inversiones en eficiencia energética (cambio de iluminación, mejora del aislamiento térmico, renovación de equipos industriales o domésticos, etc.), ya que el usuario final podrá recibir una contraprestación si vende los ahorros obtenidos para su posterior certificación mediante el Sistema de CAE.
 
 
-<!-- https://www.miteco.gob.es/es/energia/eficiencia/cae.html -->
 
+    ??? question "¿Claves en el mercado CAE?"
+
+        Se debe tener en cuenta que:
+
+        - {++los sujetos obligados tienen una obligación anual++} de ahorro energético que es de naturaleza nacional y aplicable a todo el territorio. Esta obligación de ahorro se cumple con la aportación al FNEE (182,37 €/kWh) no más tarde del 31 de diciembre. [^2], así como con la posibilidad de presentar certificados de ahorro energético. {++Los CAEs tienen una validez de tres (3) años++} contados desde la fecha en la que finalizó la ejecución de la actuación generadora del ahorro de energía 
+
+
+        - Son {++muy pocos los  sujetos obligados (y sus delegados)++}   comparado con la {++enorme cantidad de 'propietarios del ahorro de energía final'++}.
+
+    ??? question "¿Entonces qué es IberCAE?"
+
+        Es una plataforma independiente de ayuda a la venta para propietarios del ahorro.
+
+
+[^1]:[Real Decreto 36/2023, de 24 de enero, por el que se establece un sistema de Certificados de Ahorro Energético.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-2027)
+
+[^2]: [Orden TED/268/2024, de 20 de marzo, por la que se establecen las obligaciones de ahorro energético, el cumplimiento mediante Certificados de Ahorro Energético y la aportación mínima al Fondo Nacional de Eficiencia Energética para el año 2024.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5841)

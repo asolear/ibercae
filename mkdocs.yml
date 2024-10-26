@@ -1,4 +1,4 @@
-site_name: Ayuda
+site_name: .
 copyright: Copyright &copy; 2023 - 2024  IberCAE <br> Tel. 951 733 491
 
 
@@ -6,6 +6,13 @@ site_url: https://ibercae.com
 
 
 theme:
+
+  features:
+    - navigation.top
+    # - navigation.tabs
+    - toc.integrate 
+    - content.tabs.link
+    - navigation.expand
 
   # icon:
   #   logo: material/cash-sync
@@ -24,11 +31,6 @@ theme:
   #     primary: blue grey
   #     accent: orange
 
-  features:
-    - navigation.top
-    - navigation.tabs
-    - toc.integrate 
-    - content.tabs.link
   language: es
 
 plugins:
