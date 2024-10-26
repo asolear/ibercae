@@ -5,7 +5,7 @@ hide:
 
 # Certificado de Ahorro Energético (CAE)
 
-<button class='md-button ' id='mercado' style="width: 100%;"  onclick="window.location.href='https://mecae.es/'">Acceso al Mercado</button>
+<button class='md-button ' id='mercado' style="width: 100%;"  onclick="location.href='https://mecae.es/'">Acceso al Mercado</button>
 
 
 !!! note "Antecedentes"
