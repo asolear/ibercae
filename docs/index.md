@@ -24,9 +24,6 @@ hide:
 
         - Son {++muy pocos los  sujetos obligados (y sus delegados)++}   comparado con la {++enorme cantidad de 'propietarios del ahorro de energía final'++}.
 
-    ??? question "¿Entonces qué es IberCAE?"
-
-        Es una plataforma independiente de ayuda a la venta para propietarios del ahorro.
 
 
 [^1]:[Real Decreto 36/2023, de 24 de enero, por el que se establece un sistema de Certificados de Ahorro Energético.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-2027)
