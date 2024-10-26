@@ -14,8 +14,8 @@ theme:
     - content.tabs.link
     # - navigation.expand
 
-  # icon:
-  #   logo: material/cash-sync
+  icon:
+    logo: material/help
   name: material
   # custom_dir: 'overrides'
 
