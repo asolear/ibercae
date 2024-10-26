@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<script type="module" src="{{ base_url }}/js/pdfjs/pdfrenderizar.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<!-- <button id="registerButton">Usuario: No registrado</button> -->
+<!-- <button id="registerButton" class="md-button md-button--primary">Registro</button> Botón con clases de estilo -->
+<button id="registerButton" class="md-button" style="color: grey;z-index: 1000; position: fixed; border: white; top: 50px; right: 20px;">Registro</button>
+
+
+
+{{ super() }} <!-- Para que continúe mostrando el contenido de la página actual -->
+{% endblock %}
