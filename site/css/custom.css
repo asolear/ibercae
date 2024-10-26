@@ -5,9 +5,15 @@
 /* Estilos para el formulario */
 /* Estilos para el formulario */
 /* Estilos para el formulario */
+
 /* .md-header {
     display: none;
   } */
+
+.md-footer {
+  display: none;
+}
+
 h1 {
     opacity: 0.0;            /* Transparencia del 50% */
 }

@@ -5,6 +5,9 @@ hide:
 
 # Certificado de Ahorro Energético (CAE)
 
+<button class='md-button ' id='mercado' style="width: 100%;"  onclick="window.location.href='https://mecae.es/'">Acceso al Mercado</button>
+
+
 !!! note "Antecedentes"
 
     ??? question "¿Qué es un CAE? [^1]"
