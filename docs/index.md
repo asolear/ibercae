@@ -3,7 +3,7 @@ hide:
   - footer
 ---
 
-# ..
+# Certificado de Ahorro Energético (CAE)
 
 !!! note "Antecedentes"
 

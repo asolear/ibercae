@@ -1,4 +1,4 @@
-site_name: .
+site_name: Ayuda
 copyright: Copyright &copy; 2023 - 2024  IberCAE <br> Tel. 951 733 491
 
 
@@ -12,7 +12,7 @@ theme:
     # - navigation.tabs
     - toc.integrate 
     - content.tabs.link
-    - navigation.expand
+    # - navigation.expand
 
   # icon:
   #   logo: material/cash-sync
